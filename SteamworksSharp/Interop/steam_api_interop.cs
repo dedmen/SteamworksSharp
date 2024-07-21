@@ -15,9 +15,9 @@ namespace Valve.Interop
     internal static class Native
     {
 #if NET452 || NET46 || NET461 || NET462 || NET47 || NET471
-        internal const string SteamApiLibraryName = "steam_api.dll";
+        internal const string SteamApiLibraryName = "steam_api64.dll";
 #else
-        internal const string SteamApiLibraryName = "steam_api";
+        internal const string SteamApiLibraryName = "steam_api64";
 #endif
     }
 
